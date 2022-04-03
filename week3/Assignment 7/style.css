@@ -1,0 +1,14 @@
+.container{
+    border:2px solid black ;
+    width: 500px;
+    height:90vh;
+    background-image: url("https://th.bing.com/th/id/OIP.VORm5haYxkgnwzp2-4Y4egHaEK?pid=ImgDet&rs=1")
+
+}
+form{
+border:2px solid white ;
+    margin: 50px;
+    padding:50px;
+    height:60vh;
+    background-color: white;
+}

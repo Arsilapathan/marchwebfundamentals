@@ -1,0 +1,24 @@
+.container{
+    border:2px solid black ;
+    width:500px;
+    height: 800px px;
+    display:grid;
+    grid-template-columns: repeat(auto-fit);
+    gap:12px;
+}
+div{
+ border:2px solid black ;
+}
+.A{
+    background-color: aqua;
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+}
+.B{
+    background-color: blue ;
+    grid-column-start:1;
+    grid-column-end: 4;
+  
+}
+}

@@ -1,0 +1,42 @@
+.container{
+    width:500px;
+    height:50vh;
+    background-color: white ;
+    border: 2px solid black;
+    border border-radius:  5px;
+    display :grid;
+    display grid template rows:2fr 1fr ;
+    display grid template columns: 100px 100px;
+    row-gap: 5px;
+    column-gap: 5px;
+   
+}
+.items{
+    border:2px solid red ;
+    margin:5px;
+    padding :5px;
+
+}
+.A{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: tomato;
+}
+.B{
+    grid-column-start: 3;
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-row-end:3;
+    background-color: blue;
+}
+.C{
+    grid-row-start:1;
+    grid-row-start:2;
+    background-color:blueviolet;
+    
+}
+.D{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color:turquoise
+}
